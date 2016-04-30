@@ -1,0 +1,97 @@
+body{
+			margin: 0;
+		}
+
+
+		.home{
+			background-color: #EEEEEE;
+			width: 100%;
+			
+		}
+
+		.tag-line img{
+			width: 35%;
+		}
+
+		.home-table{
+			margin-left: 10%;
+			margin-right: 10%;
+			padding-bottom: 5%
+
+		}
+
+		.home-table td{
+			width: 33%;
+			text-align: center;
+			padding: 1%;
+			padding-left: 5%;
+			padding-right: 5%;
+		}
+
+		.home-img-info{
+			font-family: 'Arvo', serif;
+			font-style: italic;
+			font-size: 22px;
+		}
+		
+		.home-img-details{
+			font-family: 'PT Sans', sans-serif;
+			font-size: 18px;
+		}
+
+		.home-img{
+			width: 64%;
+			-webkit-transition: all 0.5s ease;
+	    	-moz-transition: all 0.5s ease;
+	        -o-transition: all 0.5s ease;
+	      	-ms-transition: all 0.5s ease;
+	        transition: all 0.5s ease;
+		}
+
+
+		.home-img:hover{
+
+  		-webkit-transform: rotate(360deg);
+     	-moz-transform: rotate(360deg);
+       	-o-transform: rotate(360deg);
+      	-ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+		}
+
+
+		.about{
+			width: 100%;
+			background-color: #81CFE0;
+		}
+
+		.about-1{
+			height: 42%;
+			width: 96%;
+			margin: 4%;
+			margin-bottom: 2%;
+			margin-top: 2%;
+		}
+
+		.what-list{
+			font-family: 'Josefin Sans', sans-serif;
+			font-size: 24px;
+		}
+
+
+		.what-img2 img{
+			height: 30%;
+		}
+
+
+		.what-end{
+		font-family: 'Love Ya Like A Sister', cursive;
+		font-size: 28px;
+		padding-bottom: 2%;
+		margin-bottom: 0;
+		}	
+
+
+
+
+		
+		

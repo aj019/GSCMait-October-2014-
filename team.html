@@ -1,0 +1,188 @@
+<html>
+<head>
+	<title></title>
+
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+	
+	<style type="text/css">
+		@import url("menu-container.css");
+		@import url("contact-us.css");
+
+
+		body{
+			margin: 0px;
+			background-color: #E4F1FE
+			}
+
+			.team-container {
+
+			cursor: pointer;
+			height: 80%;
+			perspective: 3000;
+			position: relative;
+			margin-top: 6%;
+			margin-bottom: 0;
+			width: 70%;
+			padding-bottom: 2%;
+
+		}
+
+		.team {
+			height: 100%;
+			position: absolute;
+			transform-style: preserve-3d;
+			transition: all 1s ease-in-out;
+			width: 100%;
+		}
+
+		.team:hover {
+			transform: rotateY(180deg);
+		}
+
+		.team .side {
+			backface-visibility: hidden;
+		  	border-radius: 30px;
+		  	height: 100%;
+		  	position: absolute;
+		  	overflow: hidden;
+		  	width: 100%;
+		  	/*background-color: #00B16A;*/
+		  	background-image: url("resources/magic.png");	
+		  	border-color: white;
+		}
+		.team .back {
+		  /*	background-color: #2ECC71;*/
+		  	
+  		  	color: black;
+		  	line-height: 150px;
+		  	text-align: center;
+		  	transform: rotateY(180deg);
+		}
+
+		.members-table{
+			width: 100%;
+			height: 100%;
+		}
+
+		.members-table td{
+			width: 25%;
+			text-align: center;
+			font-family: 'Raleway', sans-serif;
+			font-size: 20px;
+			color: #E4F1FE;
+			padding: 0;
+		}
+
+		.members img{
+			width: 60%;
+			border: solid #E4F1FE ;
+			border-radius: 50%;
+		}
+
+		
+
+	</style>
+</head>
+<body>
+
+	<div class="outside-wrapper">
+			<div class="menu-container">
+				<div class="logo-container">
+				</div>
+				<div class="link-container">
+					<table class="link-table">
+						<tr>
+							<td class="link"><a href="index.html#home">HOME</a></td>
+							<td class="link"><a href="index.html#about">ABOUT</a></td>
+							<td class="link"><a href="events.html">EVENTS</a></td>
+							<td class="link"><a href="team.html">TEAM</a></td>
+							<td class="link"><a href="#" onClick="lightbox_open();">CONTACT</a></td>
+						</tr>
+
+					</table>
+				</div>
+			</div>
+
+
+			<center>
+				<div id="light"><center><img src="resources/logo.png" style="width:25%;"></center>
+				<hr>
+				<p style="font-family: 'PT Sans', sans-serif; font-size: 24px; margin-bottom: 0; margin-top: 0;">Get in touch with us</p>
+				<p style="font-family: 'Arvo', serif; font-style: italic; margin-bottom: 0; margin-top: 0;" >We're very approachable and would love to speak to you. Feel free to send us an email.</p>
+				<table>
+					<tr><td><img src="resources/mail2.png" style="width: 30;"></td>
+					<td><p style="display:inline-block; font-size:20px;">gsclub.mait@gmail.com</p></td></tr>
+					<tr><td><img src="resources/mob2.png"  style="width: 30;"></td>
+					<td><p style="display:inline-block; font-size:20px;font-size:20px;margin-top:0px; margin-bottom:0px;">+919958632696</p></td></tr>
+					<tr><td><img src="resources/add.png" style=" width:30px;"></td>
+					<td><p style="display:inline-block; font-size:20px;">MAHARAJA AGRASEN INSTITUTE OF TECHNOLOGY<br>
+					PSP Area, Plot No. 1, Sector-22, Rohini,
+					Delhi-110086</p></td></tr>
+				</table>
+				</div>
+			</center>
+			<div id="fade" onClick="lightbox_close();"></div> 	
+
+			<br>
+			
+			<center>
+				<div class="team-container">
+				  	<div class="team">
+				    	<div class="side"><center><img src="resources/team.png" style="margin-top:20%;"></center></div>
+				    	<div class="side back">
+				    		<table class="members-table">
+				    			<tr>
+				    				<td><div class="members" id="mayank"><img src="resources/people/mayank.png"></div></td>
+				    				<td><div class="members" id="arushi"><img src="resources/people/arushi.png"></div></td>
+				    				<td><div class="members" id="simranjeet"><img src="resources/people/simranjeet.png"></div></td>
+				    				<td><div class="members" id="anuj"><img src="resources/people/anuj.png"></div></td>
+				    			</tr>
+				    			<tr>
+				    				<td><div class="members-name">Mayank Gulati</div></td>
+				    				<td><div class="members-name">Arushi Arora</div></td>
+				    				<td><div class="members-name">Simranjeet Singh</div></td>
+				    				<td><div class="members-name">Anuj Gupta</div></td>
+				    			</tr>	
+				    			<tr>
+				    				<td><div class="members" id="navni"><img src="resources/people/navni.png"></div></td>
+				    				<td><div class="members" id="gyan"><img src="resources/people/gyan.png"></div></td>
+				    				<td><div class="members" id="konark"><img src="resources/people/konark.png"></div></td>
+				    				<td><div class="members" id="udit"><img src="resources/people/udit.png"></div></td>	
+				    			</tr>
+				    			<tr>
+				    				<td><div class="members-name">Navni Bhatia</div></td>
+				    				<td><div class="members-name">Gyan Lakhwani</div></td>
+				    				<td><div class="members-name">Konark Sharma</div></td>
+				    				<td><div class="members-name">Udit Jaitly</div></td>
+				    			</tr>	
+				    			<tr>
+				    				<td><div class="members" id="vaibhav"><img src="resources/people/vaibhav.png"></div></td>
+				    			
+				    				<td><div class="members" id="mohit"><img src="resources/people/mohit.png"></div></td>
+				    				<td><div class="members" id="akash"><img src="resources/people/akash.png"></div></td>
+				    			</tr>
+				    			<tr>
+				    				<td><div class="members-name">Vaibhav Goyal</div></td>
+				    				
+				    				<td><div class="members-name">Mohit Dhingra</div></td>
+				    				<td><div class="members-name">Akash Gupta</div></td>
+
+				    			</tr>	
+
+
+				    		</table>
+				    	</div>
+					</div>
+				</div>
+			</center>
+
+
+</body>
+<script type="text/javascript" src="script/contact-us.js"></script>
+</html>
